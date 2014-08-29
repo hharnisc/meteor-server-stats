@@ -1,9 +1,0 @@
-{
-    "name": "server-stats",
-    "description": "Grab system stats (cpu, memory, load, versions, hostname) from the server",
-    "homepage": "https://github.com/hharnisc/meteor-server-stats",
-    "author": "Harrison Harnisch  (https://twitter.com/hjharnis)",
-    "version": "0.1.0",
-    "git": "https://github.com/hharnisc/meteor-server-stats.git",
-    "packages": {}
-}

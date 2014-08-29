@@ -1,11 +1,13 @@
 Package.describe({
-  summary: 'server-stats'
+  summary: 'server-stats',
+  version: "0.1.1",
+  git: "https://github.com/hharnisc/meteor-server-stats.git"
 });
 
 
 
 Package.on_use(function (api) {
-  // api.use('http', ['client', 'server']);
+  api.versionsFrom("METEOR@0.9.0");
   api.use('coffeescript');
 
   api.export('ServerStats', 'server');
